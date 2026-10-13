@@ -1,0 +1,14 @@
+:root {
+  --bg-base: #0A1020;
+  --bg-surface: #101828;
+  --bg-elevated: #17213A;
+  --border: #243049;
+  --text-primary: #E6EDF7;
+  --text-secondary: #93A1BB;
+  --text-muted: #5F6E8A;
+  --accent-green: #2ED47A;
+  --accent-cyan: #22D3EE;
+  --accent-amber: #F5B83D;
+  --accent-red: #F26B6B;
+  --accent-violet: #8B8CF8;
+}
