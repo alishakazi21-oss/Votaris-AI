@@ -24,6 +24,8 @@ logger = logging.getLogger("voltaris")
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     logger.info("Voltaris AI backend starting…")
+    import os
+    os.makedirs("data", exist_ok=True)
     await init_db()
     logger.info("Database initialised.")
     yield
