@@ -37,7 +37,7 @@ import {
 } from '../mock/mockGenerators';
 import { useUiStore } from '../../store/uiStore';
 
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://votaris-ai.onrender.com';
 
 class ApiClient {
   private async mockDelay<T>(factory: () => T): Promise<T> {
